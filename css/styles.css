@@ -1,3 +1,4 @@
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -8,6 +9,8 @@
   gap: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
+  justify-content: center;
+    align-items: center;
 }
 
 .gallery-link {
