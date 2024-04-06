@@ -95,7 +95,7 @@ galleryCont.addEventListener("click", (event) => {
       <img src="${imageOriginal}">
     </div>
   `);
-
+ 
   modal.show();
 
   const modalImageOriginal = modal.element().querySelector("img");
