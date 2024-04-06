@@ -86,7 +86,7 @@ galleryCont.innerHTML = galleryItems;
 
 galleryCont.addEventListener("click", (event) => {
   event.preventDefault();
-  if (event.target.nodeName !== 'IMG') return;
+  if (event.target.nodeName !== "IMG") return;
 
   const imageOriginal = event.target.dataset.source;
 
