@@ -90,16 +90,16 @@ galleryCont.addEventListener("click", (event) => {
 
   const imageOriginal = event.target.dataset.source;
 
-  const instance = basicLightbox.create(`
+  const modal = basicLightbox.create(`
     <div class="modal">
       <img src="${imageOriginal}">
     </div>
   `);
 
-  instance.show();
+  modal.show();
 
-  const modalImageOriginal = instance.element().querySelector("img");
+  const modalImageOriginal = modal.element().querySelector("img");
   modalImageOriginal.addEventListener("click", function () {
-    instance.close();
+    modal.close();
   });
 });
